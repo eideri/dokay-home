@@ -1309,11 +1309,16 @@ input::-moz-focus-inner {
   margin-right: 15%;
 }
 
+#cuerpo_descr {
+    /*    background-color: #000000;*/
+    color: rgba(207, 207, 207,1); /*gris claro #cfcfcf*/
+}
+
 .home-content__subscribe {
-  max-width: 420px;
-  margin: 4.2rem 0 0 0;
-  padding: 0;
-  position: relative;
+    max-width: 420px;
+    margin: 4.2rem 0 0 0;
+    padding: 0;
+    position: relative;
 }
 
 #mc-form {
@@ -2053,16 +2058,17 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-.s-info h1::before {
-  display: block;
-  content: "";
-  width: 80px;
-  height: 1px;
-  background-color: rgba(236, 0, 140, 0.6);
-  position: absolute;
-  left: 3px;
-  top: -3.6rem;
-}
+    /* #eca500*/
+    .s-info h1::before {
+        display: block;
+        content: "";
+        width: 80px;
+        height: 1px;
+        background-color: rgba(236, 165, 0, 0.6);
+        position: absolute;
+        left: 3px;
+        top: -3.6rem;
+    }
 
     .s-info h3 {
         font-family: "metropolis-regular", sans-serif;
